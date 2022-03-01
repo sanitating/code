@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>real estate</title>
+    <link rel="stylesheet" href="practice.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <section class="the-clients-slider">
+      <div class="container">
+        <div class="client-flex">
+          <div class="client-image">
+            <div class="client-slider-image">
+              <img src="" alt="" />
+            </div>
+          </div>
+
+          <div class="client-image">
+            <div class="client-slider-image">
+              <img src="images/code-img.png" alt="" />
+            </div>
+          </div>
+
+          <div class="client-image">
+            <div class="client-slider-image">
+              <img src="images/csstricks-img.png" alt="" />
+            </div>
+          </div>
+
+          <div class="client-image">
+            <div class="client-slider-image">
+              <img src="images/mozilla-img.png" alt="" />
+            </div>
+          </div>
+
+          <div class="client-image">
+            <div class="client-slider-image">
+              <img src="images/smashing-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      $(".client-flex").slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+      });
+    </script>
+  </body>
+</html>
